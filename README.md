@@ -2,6 +2,21 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## log in project
+for logning in project
+
+### step 1:
+[setup project](https://github.com/MmdFenrir/vue-dashboard-panel/tree/main#project-setup)
+
+### step 2:
+go to "/login" address
+
+### step 3:
+Set a data in localStorage whose name should be "token" and its value can be everything
+
+### step 4:
+go to "/dashboard" address
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -20,12 +35,6 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
