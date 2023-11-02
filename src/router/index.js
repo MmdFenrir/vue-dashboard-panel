@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Auth from '../middleware/auth'
-import IsLogin from '../middleware/isLogged'
+// import IsLogin from '../middleware/isLogged'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,15 +29,15 @@ const router = createRouter({
           component: () => import('../pages/users/editUserApp.vue')
         }
       ]
-    },
-    {
-      path: '/login',
-      name: 'login',
-      component: () => import('../pages/auth/loginApp.vue'),
-      meta: {
-        middleware: IsLogin
-      }
     }
+    // {
+    //   path: '/login',
+    //   name: 'login',
+    //   component: () => import('../pages/auth/loginApp.vue'),
+    //   meta: {
+    //     middleware: IsLogin
+    //   }
+    // }
   ]
 })
 
