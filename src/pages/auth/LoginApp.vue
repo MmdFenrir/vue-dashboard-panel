@@ -39,42 +39,7 @@ async function loginHandler() {
 }
 </script>
 
-<!--  <template>
-  <div class="about">
-    <h1>This is an login page</h1>
-    <p>Number is 09030907396</p>
-    <p>password is 1012</p>
-    <form v-on:submit.prevent="loginHandler" v-show="!login">
-      <input required v-model="mobile" type="text" placeholder="your phon number" />
-      <input required v-model="password" type="password" placeholder="password" />
-      <input type="submit" />
-    </form>
-  </div>
-</template> -->
-
-<!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <template>
-  <!--
-    This example requires updating your template:
-
-    ```
-    <html class="h-full bg-white">
-    <body class="h-full">
-    ```
-  -->
   <div class="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
       <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
