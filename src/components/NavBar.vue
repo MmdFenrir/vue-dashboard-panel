@@ -55,11 +55,6 @@ defineProps({
       <!-- User login -->
       <div class="w-[200px]">
         <div class="flex flex-row-reverse items-center justify-start space-x-4" @click="toggleDrop">
-          <img
-            class="w-10 h-10 rounded-full border-2 border-gray-50"
-            src="../../../public/img/2514506220534.jpg"
-            alt=""
-          />
           <div class="font-semibold text-black text-left">
             <div>Mamad ,Dev</div>
             <div class="text-xs text-gray-500 dark:text-gray-400">ادمین</div>
