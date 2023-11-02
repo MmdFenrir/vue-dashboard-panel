@@ -3,16 +3,19 @@
 This template should help get you started developing with Vue 3 in Vite.
 
 ## log in project
-for logning in project go to localStorage and set a value
+for logning in project
 
-### name:
-```sh
-token
-```
-### value:
-```sh
-one thing
-```
+### step 1:
+[setup project](https://github.com/MmdFenrir/vue-dashboard-panel/tree/main#project-setup)
+
+### step 2:
+go to "/login" address
+
+### step 3:
+Set a data in localStorage whose name should be "token" and its value can be everything
+
+### step 4:
+go to "/dashboard" address
 
 ## Recommended IDE Setup
 
@@ -32,12 +35,6 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### For see the project page go to this address
-
-```sh
-/dashboard
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
