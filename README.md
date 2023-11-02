@@ -1,6 +1,9 @@
 # vue-panel-project
 
 This template should help get you started developing with Vue 3 in Vite.
+for logning in project go to localStorage and set a value
+name: token
+value: ...(onething)
 
 ## Recommended IDE Setup
 
@@ -22,10 +25,10 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### For see the project page go to this address
 
 ```sh
-npm run build
+/dashboard
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
